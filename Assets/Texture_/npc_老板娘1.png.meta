@@ -99,7 +99,7 @@ TextureImporter:
       213: -1214879463657832287
     second: "npc_\u8001\u677F\u5A181_31"
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -116,10 +116,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -158,6 +160,8 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -169,6 +173,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -181,6 +186,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -193,6 +199,33 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -880,9 +913,41 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      "npc_\u8001\u677F\u5A181_0": 8265120714925349124
+      "npc_\u8001\u677F\u5A181_1": -3455208376762396012
+      "npc_\u8001\u677F\u5A181_10": 9098157605504050749
+      "npc_\u8001\u677F\u5A181_11": -7946119767228104761
+      "npc_\u8001\u677F\u5A181_12": 7331570473857381710
+      "npc_\u8001\u677F\u5A181_13": 8619862292262138002
+      "npc_\u8001\u677F\u5A181_14": 6928149492563720392
+      "npc_\u8001\u677F\u5A181_15": -2248625303209359287
+      "npc_\u8001\u677F\u5A181_16": -4942198553182907489
+      "npc_\u8001\u677F\u5A181_17": 4614372171936219486
+      "npc_\u8001\u677F\u5A181_18": -3552049323469402110
+      "npc_\u8001\u677F\u5A181_19": -5699279958775365482
+      "npc_\u8001\u677F\u5A181_2": -2854064601929894465
+      "npc_\u8001\u677F\u5A181_20": -7926290779580380193
+      "npc_\u8001\u677F\u5A181_21": -819593755853658515
+      "npc_\u8001\u677F\u5A181_22": 1020054391781590492
+      "npc_\u8001\u677F\u5A181_23": -8492953689136539280
+      "npc_\u8001\u677F\u5A181_24": -929102250594181985
+      "npc_\u8001\u677F\u5A181_25": 5705542160657371403
+      "npc_\u8001\u677F\u5A181_26": -1148184898023254700
+      "npc_\u8001\u677F\u5A181_27": -5651157253675365008
+      "npc_\u8001\u677F\u5A181_28": 8006020611616283324
+      "npc_\u8001\u677F\u5A181_29": 7328845175770074533
+      "npc_\u8001\u677F\u5A181_3": 9097603138024443289
+      "npc_\u8001\u677F\u5A181_30": -144666231829078751
+      "npc_\u8001\u677F\u5A181_31": -1214879463657832287
+      "npc_\u8001\u677F\u5A181_4": 746779064839558157
+      "npc_\u8001\u677F\u5A181_5": 5794086645057422728
+      "npc_\u8001\u677F\u5A181_6": -6849000390365909983
+      "npc_\u8001\u677F\u5A181_7": -5253755152477354552
+      "npc_\u8001\u677F\u5A181_8": -5539814888706080735
+      "npc_\u8001\u677F\u5A181_9": 2439215873206547639
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
