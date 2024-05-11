@@ -97,7 +97,7 @@ public class SelectSceneController : MonoBehaviour
         if (scene.buildIndex == 0)
         {
             GameObject player = GameObject.FindGameObjectWithTag("player");
-            player.transform.position = new Vector3(-4.38f, -6.16f, 0);
+            player.transform.position = new Vector3(3.15f, -4.48f, 0);
 
             SceneManager.sceneLoaded -= OnSceneLoadedbar;
         }
