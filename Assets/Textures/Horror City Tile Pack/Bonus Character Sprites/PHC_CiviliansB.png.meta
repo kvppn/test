@@ -291,7 +291,7 @@ TextureImporter:
       213: -6775830530866641093
     second: PHC_CiviliansB_95
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -308,10 +308,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -350,6 +352,8 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -361,6 +365,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -373,6 +378,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -385,6 +391,33 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -2416,9 +2449,105 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      PHC_CiviliansB_0: 7530669117843704572
+      PHC_CiviliansB_1: 1096645660289342557
+      PHC_CiviliansB_10: -7545670878456525175
+      PHC_CiviliansB_11: 4836117585356377804
+      PHC_CiviliansB_12: 5925142175354582091
+      PHC_CiviliansB_13: -5117268043834541556
+      PHC_CiviliansB_14: 5015203306297158356
+      PHC_CiviliansB_15: 4877865588869851303
+      PHC_CiviliansB_16: -7088473625905212606
+      PHC_CiviliansB_17: 1754583086732179118
+      PHC_CiviliansB_18: 1031737166294754058
+      PHC_CiviliansB_19: -1584892357522925059
+      PHC_CiviliansB_2: -8705436451575845791
+      PHC_CiviliansB_20: 1455322233533010068
+      PHC_CiviliansB_21: -6059197527270590870
+      PHC_CiviliansB_22: 6062852384896151728
+      PHC_CiviliansB_23: -6262089853727006976
+      PHC_CiviliansB_24: 3636551538220728597
+      PHC_CiviliansB_25: 334944892473980336
+      PHC_CiviliansB_26: 792363937118179423
+      PHC_CiviliansB_27: -7946144163591804434
+      PHC_CiviliansB_28: -5164306969314950916
+      PHC_CiviliansB_29: 840648672897917831
+      PHC_CiviliansB_3: -8859503710493460131
+      PHC_CiviliansB_30: 3012290045756518574
+      PHC_CiviliansB_31: -4965657504248520244
+      PHC_CiviliansB_32: 8368124203471645421
+      PHC_CiviliansB_33: -5926496990300636015
+      PHC_CiviliansB_34: 7175758409621699687
+      PHC_CiviliansB_35: 3974160970345559238
+      PHC_CiviliansB_36: -3748103706801649508
+      PHC_CiviliansB_37: 1842081088171460039
+      PHC_CiviliansB_38: 4918327958554685092
+      PHC_CiviliansB_39: 7429646830450360097
+      PHC_CiviliansB_4: -7822753326695877628
+      PHC_CiviliansB_40: -6332737305351436111
+      PHC_CiviliansB_41: 4951693694872360764
+      PHC_CiviliansB_42: 8088269255718552901
+      PHC_CiviliansB_43: 4119110843423430133
+      PHC_CiviliansB_44: 1458320810299027838
+      PHC_CiviliansB_45: 633840749995776447
+      PHC_CiviliansB_46: 1685615683642589469
+      PHC_CiviliansB_47: -5656677383657734743
+      PHC_CiviliansB_48: -4010469187699923629
+      PHC_CiviliansB_49: -61420515098456123
+      PHC_CiviliansB_5: 6055884686862966900
+      PHC_CiviliansB_50: -1845698199397647846
+      PHC_CiviliansB_51: 790576331962643663
+      PHC_CiviliansB_52: -7177793619969457526
+      PHC_CiviliansB_53: 9104528103233751428
+      PHC_CiviliansB_54: 4930822875375121767
+      PHC_CiviliansB_55: 6621602993761699525
+      PHC_CiviliansB_56: 7687067241085125081
+      PHC_CiviliansB_57: -7552595379155472951
+      PHC_CiviliansB_58: 3144670499171562726
+      PHC_CiviliansB_59: 2524856492345559475
+      PHC_CiviliansB_6: -3750677489702214606
+      PHC_CiviliansB_60: 3774051878571367461
+      PHC_CiviliansB_61: 8347198752636803115
+      PHC_CiviliansB_62: -4760675514102322144
+      PHC_CiviliansB_63: 3621837171420915320
+      PHC_CiviliansB_64: 5599716595296315734
+      PHC_CiviliansB_65: 3070867338310779757
+      PHC_CiviliansB_66: 2614479275906999621
+      PHC_CiviliansB_67: 8522325414527058620
+      PHC_CiviliansB_68: -3382250098463373977
+      PHC_CiviliansB_69: -1260933004096552912
+      PHC_CiviliansB_7: 2178146531834302657
+      PHC_CiviliansB_70: 713395920625185924
+      PHC_CiviliansB_71: 3866064428492514940
+      PHC_CiviliansB_72: -4334676686318518413
+      PHC_CiviliansB_73: -477318354897392920
+      PHC_CiviliansB_74: -5554163482728189404
+      PHC_CiviliansB_75: 7410995555357194223
+      PHC_CiviliansB_76: -5784434948612233687
+      PHC_CiviliansB_77: 4297731798669482873
+      PHC_CiviliansB_78: -7297850775256822272
+      PHC_CiviliansB_79: 3592709301611246298
+      PHC_CiviliansB_8: 2778645674747811847
+      PHC_CiviliansB_80: 2613509224452005129
+      PHC_CiviliansB_81: -2942901667311514510
+      PHC_CiviliansB_82: 792379066129404783
+      PHC_CiviliansB_83: -2075931441858909821
+      PHC_CiviliansB_84: -7190083374799160992
+      PHC_CiviliansB_85: 5584474710941085408
+      PHC_CiviliansB_86: -5502485934192054085
+      PHC_CiviliansB_87: -1500105733060420705
+      PHC_CiviliansB_88: -1355671337084341252
+      PHC_CiviliansB_89: -1654630231616511179
+      PHC_CiviliansB_9: -6358986690400851029
+      PHC_CiviliansB_90: 364728543632924081
+      PHC_CiviliansB_91: -5946050427470547577
+      PHC_CiviliansB_92: -6929426386850735996
+      PHC_CiviliansB_93: -3053281322956427351
+      PHC_CiviliansB_94: -8510358326509504919
+      PHC_CiviliansB_95: -6775830530866641093
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
